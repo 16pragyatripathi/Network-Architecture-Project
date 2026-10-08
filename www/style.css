@@ -1,0 +1,12 @@
+body {
+	max-width: 40em;
+	margin: 3em auto;
+	padding: 0 1em;
+	font: 16px/1.5 system-ui, sans-serif;
+	color: #222;
+}
+
+code {
+	background: #f2f2f2;
+	padding: 0 .25em;
+}

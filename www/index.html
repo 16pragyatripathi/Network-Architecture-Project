@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>bserve</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<h1>It works.</h1>
+<p>This page came over BHTP/1: one REQUEST frame out, one RESPONSE and a DATA
+frame back, on a connection that is still open.</p>
+<p>Try <code>./bcurl -v localhost:9000/hello.txt /notes/</code> to fetch two
+files over the same connection and watch every frame go past.</p>
+</body>
+</html>
